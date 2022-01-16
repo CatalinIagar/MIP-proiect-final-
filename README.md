@@ -27,6 +27,6 @@ DEV Options:
 
 
 
-# ADMIN
+## ADMIN
 
 The admin can add new candidates, and view the number of votes for each candidate.
