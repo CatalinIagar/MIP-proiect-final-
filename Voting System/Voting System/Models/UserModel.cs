@@ -41,6 +41,6 @@ namespace Voting_System.Models {
     }
 
     public class UserDbContext : DbContext {
-        public DbSet <UserModel> Users { get; set; }
+        public DbSet <UserModel> Users { get; set; } // cv comment
     }
 }
