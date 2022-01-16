@@ -28,6 +28,9 @@ namespace Voting_System.Models {
         public string LastName { get; set; }
 
         [Required]
+        public DateTime DateOfBirth { get; set; }
+
+        [Required]
         public string CNP { get; set; }
 
         [Required]
