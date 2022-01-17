@@ -1,0 +1,6 @@
+D:\GitHub\MIP-proiect-final-\Voting System\XMLLibrary\obj\Debug\XMLLibrary.csproj.AssemblyReference.cache
+D:\GitHub\MIP-proiect-final-\Voting System\XMLLibrary\obj\Debug\XMLLibrary.csproj.CoreCompileInputs.cache
+D:\GitHub\MIP-proiect-final-\Voting System\XMLLibrary\bin\Debug\XMLLibrary.dll
+D:\GitHub\MIP-proiect-final-\Voting System\XMLLibrary\bin\Debug\XMLLibrary.pdb
+D:\GitHub\MIP-proiect-final-\Voting System\XMLLibrary\obj\Debug\XMLLibrary.dll
+D:\GitHub\MIP-proiect-final-\Voting System\XMLLibrary\obj\Debug\XMLLibrary.pdb
