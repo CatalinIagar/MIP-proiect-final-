@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUpForm));
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.usernameTxt = new System.Windows.Forms.TextBox();
             this.usernameLbl = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.passwordTxt = new System.Windows.Forms.TextBox();
             this.passwordLbl = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.lastTxt = new System.Windows.Forms.TextBox();
             this.lastNameLbl = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.firstTxt = new System.Windows.Forms.TextBox();
             this.firstNameLbl = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.cnpTxt = new System.Windows.Forms.TextBox();
             this.cdnpLbl = new System.Windows.Forms.Label();
             this.dobLbl = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
@@ -45,12 +45,12 @@
             this.signupBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // usernameTxt
             // 
-            this.textBox1.Location = new System.Drawing.Point(15, 36);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 20);
-            this.textBox1.TabIndex = 5;
+            this.usernameTxt.Location = new System.Drawing.Point(15, 36);
+            this.usernameTxt.Name = "usernameTxt";
+            this.usernameTxt.Size = new System.Drawing.Size(200, 20);
+            this.usernameTxt.TabIndex = 5;
             // 
             // usernameLbl
             // 
@@ -61,13 +61,13 @@
             this.usernameLbl.TabIndex = 4;
             this.usernameLbl.Text = "Username";
             // 
-            // textBox2
+            // passwordTxt
             // 
-            this.textBox2.Location = new System.Drawing.Point(15, 76);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(200, 20);
-            this.textBox2.TabIndex = 7;
+            this.passwordTxt.Location = new System.Drawing.Point(15, 76);
+            this.passwordTxt.Name = "passwordTxt";
+            this.passwordTxt.PasswordChar = '*';
+            this.passwordTxt.Size = new System.Drawing.Size(200, 20);
+            this.passwordTxt.TabIndex = 7;
             // 
             // passwordLbl
             // 
@@ -78,12 +78,12 @@
             this.passwordLbl.TabIndex = 6;
             this.passwordLbl.Text = "Password";
             // 
-            // textBox3
+            // lastTxt
             // 
-            this.textBox3.Location = new System.Drawing.Point(15, 156);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(200, 20);
-            this.textBox3.TabIndex = 11;
+            this.lastTxt.Location = new System.Drawing.Point(15, 156);
+            this.lastTxt.Name = "lastTxt";
+            this.lastTxt.Size = new System.Drawing.Size(200, 20);
+            this.lastTxt.TabIndex = 11;
             // 
             // lastNameLbl
             // 
@@ -94,12 +94,12 @@
             this.lastNameLbl.TabIndex = 10;
             this.lastNameLbl.Text = "Last Name";
             // 
-            // textBox4
+            // firstTxt
             // 
-            this.textBox4.Location = new System.Drawing.Point(15, 116);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(200, 20);
-            this.textBox4.TabIndex = 9;
+            this.firstTxt.Location = new System.Drawing.Point(15, 116);
+            this.firstTxt.Name = "firstTxt";
+            this.firstTxt.Size = new System.Drawing.Size(200, 20);
+            this.firstTxt.TabIndex = 9;
             // 
             // firstNameLbl
             // 
@@ -110,12 +110,12 @@
             this.firstNameLbl.TabIndex = 8;
             this.firstNameLbl.Text = "First Name";
             // 
-            // textBox5
+            // cnpTxt
             // 
-            this.textBox5.Location = new System.Drawing.Point(15, 196);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(200, 20);
-            this.textBox5.TabIndex = 13;
+            this.cnpTxt.Location = new System.Drawing.Point(15, 196);
+            this.cnpTxt.Name = "cnpTxt";
+            this.cnpTxt.Size = new System.Drawing.Size(200, 20);
+            this.cnpTxt.TabIndex = 13;
             // 
             // cdnpLbl
             // 
@@ -171,15 +171,15 @@
             this.Controls.Add(this.signupBtn);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.dobLbl);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.cnpTxt);
             this.Controls.Add(this.cdnpLbl);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.lastTxt);
             this.Controls.Add(this.lastNameLbl);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.firstTxt);
             this.Controls.Add(this.firstNameLbl);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.passwordTxt);
             this.Controls.Add(this.passwordLbl);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.usernameTxt);
             this.Controls.Add(this.usernameLbl);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SignUpForm";
@@ -191,15 +191,15 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox usernameTxt;
         private System.Windows.Forms.Label usernameLbl;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox passwordTxt;
         private System.Windows.Forms.Label passwordLbl;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox lastTxt;
         private System.Windows.Forms.Label lastNameLbl;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox firstTxt;
         private System.Windows.Forms.Label firstNameLbl;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox cnpTxt;
         private System.Windows.Forms.Label cdnpLbl;
         private System.Windows.Forms.Label dobLbl;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
