@@ -16,5 +16,16 @@ namespace Voting_System.Views
         {
             InitializeComponent();
         }
+
+        private void closeBtn_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
+            this.Close();
+        }
+
+        private void signupBtn_Click(object sender, EventArgs e)
+        {
+            //ceva cotroler habar nam vedem
+        }
     }
 }

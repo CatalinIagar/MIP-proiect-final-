@@ -5,12 +5,7 @@
       "ProjectGuid": "156418c0-1602-4297-8d22-3eb4dfaf985d",
       "DisplayName": "Voting System",
       "ColorIndex": 0
-    },
-    "169eca25-83d4-4bf8-a798-d1e10d0b256d": {
-      "ProjectGuid": "169eca25-83d4-4bf8-a798-d1e10d0b256d",
-      "DisplayName": "XMLLibrary",
-      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 1
 }

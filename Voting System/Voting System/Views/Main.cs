@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Voting_System.Views;
 
 namespace Voting_System
 {
@@ -20,6 +21,12 @@ namespace Voting_System
         private void closeBtn_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void signupBtn_Click(object sender, EventArgs e)
+        {
+            SignUpForm signupForm = new SignUpForm();
+            signupForm.Show();
         }
     }
 }

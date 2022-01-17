@@ -29,3 +29,4 @@ C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting
 C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.csproj.CoreCompileInputs.cache
 C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.csproj.CopyComplete
 C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Main.resources
+C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.SignUpForm.resources
