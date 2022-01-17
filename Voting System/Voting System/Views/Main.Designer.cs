@@ -109,10 +109,11 @@
             this.signupBtn.TabIndex = 7;
             this.signupBtn.Text = "Sign up";
             this.signupBtn.UseVisualStyleBackColor = true;
+            this.signupBtn.Click += new System.EventHandler(this.signupBtn_Click);
             // 
             // adminBtn
             // 
-            this.adminBtn.Location = new System.Drawing.Point(382, 222);
+            this.adminBtn.Location = new System.Drawing.Point(382, 230);
             this.adminBtn.Name = "adminBtn";
             this.adminBtn.Size = new System.Drawing.Size(87, 36);
             this.adminBtn.TabIndex = 8;

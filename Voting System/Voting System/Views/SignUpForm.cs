@@ -7,26 +7,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Voting_System.Views;
 
-namespace Voting_System
+namespace Voting_System.Views
 {
-    public partial class Main : Form
+    public partial class SignUpForm : Form
     {
-        public Main()
+        public SignUpForm()
         {
             InitializeComponent();
         }
 
         private void closeBtn_Click(object sender, EventArgs e)
         {
+            this.DialogResult = DialogResult.Cancel;
             this.Close();
         }
 
         private void signupBtn_Click(object sender, EventArgs e)
         {
-            SignUpForm signupForm = new SignUpForm();
-            signupForm.Show();
+            //ceva cotroler habar nam vedem
         }
     }
 }
