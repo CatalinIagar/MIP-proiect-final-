@@ -1,0 +1,6 @@
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\XMLLibrary\bin\Debug\XMLLibrary.dll
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\XMLLibrary\bin\Debug\XMLLibrary.pdb
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\XMLLibrary\obj\Debug\XMLLibrary.csproj.AssemblyReference.cache
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\XMLLibrary\obj\Debug\XMLLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\XMLLibrary\obj\Debug\XMLLibrary.dll
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\XMLLibrary\obj\Debug\XMLLibrary.pdb
