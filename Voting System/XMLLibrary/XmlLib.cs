@@ -14,7 +14,7 @@ namespace XMLLibrary
          bool insertXml(string directoryAndFile,int id, string fname, string lname, string descriere) {
 
             string basePath = Environment.CurrentDirectory;
-            string relativePath = @"data\output.xml";
+            string relativePath = directoryAndFile;
             string fullPath = Path.Combine(basePath, relativePath);
 
             try {
