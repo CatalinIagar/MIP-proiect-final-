@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voting System", "Voting System\Voting System.csproj", "{156418C0-1602-4297-8D22-3EB4DFAF985D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLLibrary", "XMLLibrary\XMLLibrary.csproj", "{169ECA25-83D4-4BF8-A798-D1E10D0B256D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{156418C0-1602-4297-8D22-3EB4DFAF985D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{156418C0-1602-4297-8D22-3EB4DFAF985D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{156418C0-1602-4297-8D22-3EB4DFAF985D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169ECA25-83D4-4BF8-A798-D1E10D0B256D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169ECA25-83D4-4BF8-A798-D1E10D0B256D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169ECA25-83D4-4BF8-A798-D1E10D0B256D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169ECA25-83D4-4BF8-A798-D1E10D0B256D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
