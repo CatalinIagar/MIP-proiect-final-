@@ -31,3 +31,20 @@ C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting
 C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Main.resources
 C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.SignUpForm.resources
 C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.SignUpForm.resources
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\bin\Debug\Voting System.exe.config
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\bin\Debug\Voting System.exe
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\bin\Debug\Voting System.pdb
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\bin\Debug\EntityFramework.dll
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\bin\Debug\EntityFramework.xml
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.csproj.AssemblyReference.cache
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Main.resources
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Properties.Resources.resources
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.SignUpForm.resources
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.csproj.GenerateResource.cache
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.csproj.CoreCompileInputs.cache
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.csproj.CopyComplete
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.exe
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.pdb

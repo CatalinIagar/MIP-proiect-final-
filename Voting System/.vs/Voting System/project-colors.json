@@ -5,7 +5,17 @@
       "ProjectGuid": "156418c0-1602-4297-8d22-3eb4dfaf985d",
       "DisplayName": "Voting System",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "169eca25-83d4-4bf8-a798-d1e10d0b256d": {
+      "ProjectGuid": "169eca25-83d4-4bf8-a798-d1e10d0b256d",
+      "DisplayName": "XMLLibrary",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
