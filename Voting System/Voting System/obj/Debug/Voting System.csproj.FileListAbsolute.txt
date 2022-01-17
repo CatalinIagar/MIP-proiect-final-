@@ -14,3 +14,18 @@ C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting
 C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.exe
 C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.pdb
 C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Form1.resources
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.csproj.AssemblyReference.cache
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Main.resources
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.csproj.GenerateResource.cache
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.exe
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.pdb
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\bin\Debug\Voting System.exe.config
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\bin\Debug\Voting System.exe
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\bin\Debug\Voting System.pdb
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\bin\Debug\EntityFramework.dll
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\bin\Debug\EntityFramework.xml
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Properties.Resources.resources
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.csproj.CoreCompileInputs.cache
+C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.csproj.CopyComplete
