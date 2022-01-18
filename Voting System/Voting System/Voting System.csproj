@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Controllers\CandidateController.cs" />
     <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="ErrorCodes.cs" />
     <Compile Include="Views\Main.cs">
       <SubType>Form</SubType>
     </Compile>

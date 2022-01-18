@@ -8,14 +8,39 @@ using Voting_System.Models;
 
 namespace Voting_System.Controllers {
     public class UserController {
-        public static void NewUser (string uname, int pwd, string fn, string ln, DateTime dob, string cnp) {
-            using(UserDbContext udb = new UserDbContext()) {
+        public static int NewUser (string username, string password, string firstName, string lastName, DateTime dateOfBirth, string cnp) {
+            using (UserDbContext udb = new UserDbContext()) {
+
+                int query = (from u in udb.Users
+                             where u.Username == username
+                             select u).Count();
+
+                if (username == "") return ErrorCodes.UsernameNull;
+                if (query != 0) return ErrorCodes.UsernameExistent;
+                if (password == "") return ErrorCodes.PasswordNull;
+                if (firstName == "") return ErrorCodes.FirstNameNull;
+                if (lastName == "") return ErrorCodes.LastPassNull;
+                if (dateOfBirth == null) return ErrorCodes.DOBNull;
+
+                if (cnp == "") return ErrorCodes.CNPNULL;
+                if (cnp.Length != 13) return ErrorCodes.CNPLengthError;
+
+                string constCNP = "279146358279";
+                int c = 0;
+                for(int i =0; i < 12; i++)
+                {
+                    c += (int.Parse(cnp[i].ToString()) * int.Parse(constCNP[i].ToString()));
+                }
+                int rez = c % 11;
+                if (rez == 10) rez = 1;
+                if (rez != int.Parse(cnp[12].ToString())) return ErrorCodes.InvalidCNP;
+
                 UserModel userModel = new UserModel();
-                userModel.Username = uname;
-                userModel.Password = pwd;
-                userModel.FirstName = fn;
-                userModel.LastName = ln;
-                userModel.DateOfBirth = dob;
+                userModel.Username = username;
+                userModel.Password = password.GetHashCode();
+                userModel.FirstName = firstName;
+                userModel.LastName = lastName;
+                userModel.DateOfBirth = dateOfBirth;
                 userModel.CNP = cnp;
                 userModel.HasVoted = false;
                 userModel.CandidateID = -1;
@@ -23,6 +48,7 @@ namespace Voting_System.Controllers {
                 udb.Users.Add(userModel);
                 udb.SaveChanges();
             }
+            return ErrorCodes.Succes;
         }
     }
 }

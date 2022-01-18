@@ -57,42 +57,65 @@ namespace Voting_System.Views
                 using (UserDbContext context = new UserDbContext())
                 {
                     string Username = this.usernameTxt.Text;
-                    int Password = this.passwordTxt.Text.GetHashCode();
+                    string Password = this.passwordTxt.Text;
                     string FirstName = this.firstTxt.Text;
                     string LastName = this.lastTxt.Text;
                     string CNP = this.cnpTxt.Text;
                     DateTime DateOfBirth = this.dateTimePicker1.Value;
 
-                    int query = (from u in context.Users
-                                 where u.Username == usernameTxt.Text
-                                 select u).Count();
-                    if (query == 0)
-                    {
-                        try
-                        {
-                            UserController.NewUser(Username, Password, FirstName, LastName, DateOfBirth, CNP);
-                            MessageBox.Show("Cont creat cu succes");
+                    int rezultat = UserController.NewUser(Username, Password, FirstName, LastName, DateOfBirth, CNP);
 
-                            if (signUp.InvokeRequired)
-                            {
-                                object[] f = new object[1];
-                                f[0] = signUp;
-                                signUp.BeginInvoke(new CloseFormDelegate(CloseForm), f);
-                            }
-                            else
-                            {
-                                CloseForm(signUp);
-                            }
-                        }
-                        catch (System.Data.Entity.Validation.DbEntityValidationException ex)
-                        {
-                            MessageBox.Show("Nu ati complet toate campurile");
-                        }
-                    }
-                    else
+                    if(rezultat == ErrorCodes.UsernameExistent)
                     {
-                        MessageBox.Show("Username existent");
+                        MessageBox.Show("Username already exists");
                     }
+                    if (rezultat == ErrorCodes.UsernameNull)
+                    {
+                        MessageBox.Show("Please complete username field");
+                    }
+                    if (rezultat == ErrorCodes.PasswordNull)
+                    {
+                        MessageBox.Show("Please complete password field");
+                    }
+                    if (rezultat == ErrorCodes.FirstNameNull)
+                    {
+                        MessageBox.Show("Please complete first name field");
+                    }
+                    if (rezultat == ErrorCodes.LastPassNull)
+                    {
+                        MessageBox.Show("Please complete last name field");
+                    }
+                    if (rezultat == ErrorCodes.DOBNull)
+                    {
+                        MessageBox.Show("Please complete Date of bith field");
+                    }
+                    if (rezultat == ErrorCodes.CNPNULL)
+                    {
+                        MessageBox.Show("Please complete CNP field");
+                    }
+                    if (rezultat == ErrorCodes.CNPLengthError)
+                    {
+                        MessageBox.Show("CNP does not meet the required length");
+                    }
+                    if (rezultat == ErrorCodes.InvalidCNP)
+                    {
+                        MessageBox.Show("CNP invalid");
+                    }
+                    if (rezultat == ErrorCodes.Succes)
+                    {
+                        MessageBox.Show("Account succesfully created");
+                        if (signUp.InvokeRequired)
+                        {
+                            object[] f = new object[1];
+                            f[0] = signUp;
+                            signUp.BeginInvoke(new CloseFormDelegate(CloseForm), f);
+                        }
+                        else
+                        {
+                            CloseForm(signUp);
+                        }
+                    }
+
 
                     if (signUpButton.InvokeRequired)
                     {
