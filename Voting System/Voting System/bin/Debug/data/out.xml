@@ -5,4 +5,9 @@
     <Prenume>Valentin</Prenume>
     <Descriere>hahahhahahhah</Descriere>
   </Candidat>
+  <Candidat Id="8">
+    <Nume>Frincu</Nume>
+    <Prenume>Razvan</Prenume>
+    <Descriere>cel mai mare bombarider</Descriere>
+  </Candidat>
 </Candidati>
