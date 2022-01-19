@@ -54,80 +54,79 @@ namespace Voting_System.Views
         {
             await Task.Run(() =>
             {
-                using (UserDbContext context = new UserDbContext())
+                
+                string Username = this.usernameTxt.Text;
+                string Password = this.passwordTxt.Text;
+                string FirstName = this.firstTxt.Text;
+                string LastName = this.lastTxt.Text;
+                string CNP = this.cnpTxt.Text;
+                DateTime DateOfBirth = this.dateTimePicker1.Value;
+
+                int rezultat = UserController.NewUser(Username, Password, FirstName, LastName, DateOfBirth, CNP);
+
+                if(rezultat == ErrorCodes.UsernameExistent)
                 {
-                    string Username = this.usernameTxt.Text;
-                    string Password = this.passwordTxt.Text;
-                    string FirstName = this.firstTxt.Text;
-                    string LastName = this.lastTxt.Text;
-                    string CNP = this.cnpTxt.Text;
-                    DateTime DateOfBirth = this.dateTimePicker1.Value;
-
-                    int rezultat = UserController.NewUser(Username, Password, FirstName, LastName, DateOfBirth, CNP);
-
-                    if(rezultat == ErrorCodes.UsernameExistent)
+                    MessageBox.Show("Username already exists");
+                }
+                if (rezultat == ErrorCodes.UsernameNull)
+                {
+                    MessageBox.Show("Please complete username field");
+                }
+                if (rezultat == ErrorCodes.PasswordNull)
+                {
+                    MessageBox.Show("Please complete password field");
+                }
+                if (rezultat == ErrorCodes.FirstNameNull)
+                {
+                    MessageBox.Show("Please complete first name field");
+                }
+                if (rezultat == ErrorCodes.LastPassNull)
+                {
+                    MessageBox.Show("Please complete last name field");
+                }
+                if (rezultat == ErrorCodes.DOBNull)
+                {
+                    MessageBox.Show("Please complete Date of bith field");
+                }
+                if (rezultat == ErrorCodes.CNPNULL)
+                {
+                    MessageBox.Show("Please complete CNP field");
+                }
+                if (rezultat == ErrorCodes.CNPLengthError)
+                {
+                    MessageBox.Show("CNP does not meet the required length");
+                }
+                if (rezultat == ErrorCodes.InvalidCNP)
+                {
+                    MessageBox.Show("CNP invalid");
+                }
+                if (rezultat == ErrorCodes.Succes)
+                {
+                    MessageBox.Show("Account succesfully created");
+                    if (signUp.InvokeRequired)
                     {
-                        MessageBox.Show("Username already exists");
-                    }
-                    if (rezultat == ErrorCodes.UsernameNull)
-                    {
-                        MessageBox.Show("Please complete username field");
-                    }
-                    if (rezultat == ErrorCodes.PasswordNull)
-                    {
-                        MessageBox.Show("Please complete password field");
-                    }
-                    if (rezultat == ErrorCodes.FirstNameNull)
-                    {
-                        MessageBox.Show("Please complete first name field");
-                    }
-                    if (rezultat == ErrorCodes.LastPassNull)
-                    {
-                        MessageBox.Show("Please complete last name field");
-                    }
-                    if (rezultat == ErrorCodes.DOBNull)
-                    {
-                        MessageBox.Show("Please complete Date of bith field");
-                    }
-                    if (rezultat == ErrorCodes.CNPNULL)
-                    {
-                        MessageBox.Show("Please complete CNP field");
-                    }
-                    if (rezultat == ErrorCodes.CNPLengthError)
-                    {
-                        MessageBox.Show("CNP does not meet the required length");
-                    }
-                    if (rezultat == ErrorCodes.InvalidCNP)
-                    {
-                        MessageBox.Show("CNP invalid");
-                    }
-                    if (rezultat == ErrorCodes.Succes)
-                    {
-                        MessageBox.Show("Account succesfully created");
-                        if (signUp.InvokeRequired)
-                        {
-                            object[] f = new object[1];
-                            f[0] = signUp;
-                            signUp.BeginInvoke(new CloseFormDelegate(CloseForm), f);
-                        }
-                        else
-                        {
-                            CloseForm(signUp);
-                        }
-                    }
-
-
-                    if (signUpButton.InvokeRequired)
-                    {
-                        object[] b = new object[1];
-                        b[0] = signUpButton;
-                        signUpButton.BeginInvoke(new enableSignUpButtonDelegate(enableSignUpButton), b);
+                        object[] f = new object[1];
+                        f[0] = signUp;
+                        signUp.BeginInvoke(new CloseFormDelegate(CloseForm), f);
                     }
                     else
                     {
-                        enableSignUpButton(signUpButton);
+                        CloseForm(signUp);
                     }
                 }
+
+
+                if (signUpButton.InvokeRequired)
+                {
+                    object[] b = new object[1];
+                    b[0] = signUpButton;
+                    signUpButton.BeginInvoke(new enableSignUpButtonDelegate(enableSignUpButton), b);
+                }
+                else
+                {
+                    enableSignUpButton(signUpButton);
+                }
+                
             });
         }
     }

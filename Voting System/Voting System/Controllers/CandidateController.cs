@@ -7,16 +7,25 @@ using Voting_System.Models;
 
 namespace Voting_System.Controllers {
     public class CandidateController {
-        public static void NewCandidate (string fn, string ln, string desc) {
+        public static int NewCandidate (string firstName, string lastName, string Description) {
+
+            if (firstName == "") return ErrorCodes.FirstNameNull;
+            if (lastName == "") return ErrorCodes.LastPassNull;
+            if (Description == "") return ErrorCodes.DescriptionNull;
+            if (Description.Length < 50) return ErrorCodes.DescriptionLessThan50;
+            if (Description.Length > 200) return ErrorCodes.DescriptionMoreThan200;
+ 
             CandidateModel candidateModel = new CandidateModel();
-            candidateModel.FirstName = fn;
-            candidateModel.LastName = ln;
-            candidateModel.Description = desc;
+            candidateModel.FirstName = firstName;
+            candidateModel.LastName = lastName;
+            candidateModel.Description = Description;
             candidateModel.NrOfVotes = 0;
 
             using (CandidateDbContext cdb = new CandidateDbContext()) {
                 cdb.Candidates.Add(candidateModel);
+                cdb.SaveChanges();
             }
+            return ErrorCodes.Succes;
         }
     }
 }

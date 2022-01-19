@@ -60,6 +60,18 @@
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\XmlController.cs" />
     <Compile Include="ErrorCodes.cs" />
+    <Compile Include="Views\AddCandidate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddCandidate.Designer.cs">
+      <DependentUpon>AddCandidate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +88,12 @@
     <Compile Include="Views\SignUpForm.Designer.cs">
       <DependentUpon>SignUpForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\AddCandidate.resx">
+      <DependentUpon>AddCandidate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
