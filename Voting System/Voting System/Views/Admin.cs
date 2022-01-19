@@ -27,7 +27,7 @@ namespace Voting_System.Views
 
         private void resultsBtn_Click(object sender, EventArgs e)
         {
-           
+            //;
         }
     }
 }
