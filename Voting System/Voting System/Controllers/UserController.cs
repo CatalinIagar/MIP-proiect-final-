@@ -52,6 +52,7 @@ namespace Voting_System.Controllers {
         }
 
         public static bool UserExists(string username, int hashed_pwd) {
+            //int hashed_pwd = pwd.GetHashCode();
             using (UserDbContext udb = new UserDbContext()) {
                 int count = (from u in udb.Users
                              where u.Username == username && u.Password == hashed_pwd
