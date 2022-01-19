@@ -1,12 +1,18 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Candidati>
-<Candidat Id="2">
-	<Nume>Tudor</Nume>
-	<Prenume>Gorea</Prenume>
-	<Descriere>I love c# ggggggggggggggggggg
+  <Candidat Id="2">
+    <Nume>Tudor</Nume>
+    <Prenume>Gorea</Prenume>
+    <Descriere>I love c# ggggggggggggggggggg
 fffffffffffffffffffffffffffffff
 ggggggggggggggggggggggg
 hhhhhhhhhhhhhhhhhhhhhhh</Descriere>
-	<ImageSource>image.PNG</ImageSource>
-</Candidat>
+    <ImageSource>image.PNG</ImageSource>
+  </Candidat>
+  <Candidat Id="2">
+    <Nume>ababababa</Nume>
+    <Prenume>qwerty</Prenume>
+    <Descriere>uygaruygeryukherkuyh iuhuyyyud rhcyuer gyueg yufyuvegtyu ru hru yur gyufg yurgyurg yu goyugyugr yue yuvegr uvrgy ugryuvge yug evyg erygy ruir greuil s; s ts.u xtlieru liur  </Descriere>
+    <ImageSource></ImageSource>
+  </Candidat>
 </Candidati>

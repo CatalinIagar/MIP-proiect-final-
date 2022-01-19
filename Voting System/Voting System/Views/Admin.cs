@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using Voting_System.Controllers;
+using Voting_System.Models;
 
 namespace Voting_System.Views
 {
@@ -25,9 +26,21 @@ namespace Voting_System.Views
             addCandidate.Show();
         }
 
-        private void resultsBtn_Click(object sender, EventArgs e)
+        private async void resultsBtn_Click(object sender, EventArgs e)
         {
-            //;
+            Task<List<CandidateModel>> task = new Task<List<CandidateModel>>(() => CandidateController.GetAllCandidates());
+            task.Start();
+            List<CandidateModel> candidates = await task; // get all candidates from db
+
+            var res = (from c in candidates
+                       select new {
+                           c.ID,
+                           c.FirstName,
+                           c.LastName,
+                           c.NrOfVotes
+                       }).ToList();
+
+            this.dgv.DataSource = res;
         }
     }
 }

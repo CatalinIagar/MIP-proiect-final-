@@ -28,7 +28,7 @@ namespace Voting_System.Controllers {
             return ErrorCodes.Succes;
         }
 
-        public static List<CandidateModel> GetAllCandidates (int id) {
+        public static List<CandidateModel> GetAllCandidates () {
             using (CandidateDbContext cdb = new CandidateDbContext()) {
                 var candidates = (from c in cdb.Candidates
                                  select c).ToList();
