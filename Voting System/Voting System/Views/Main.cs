@@ -75,5 +75,22 @@ namespace Voting_System
             this.Close();
 
         }
+
+        private void loginBtn_Click(object sender, EventArgs e)
+        {
+            bool result = UserController.UserExists(usernameTxtBox.Text, adminPassTxt.Text.GetHashCode());
+
+            if (result = true)
+            {
+                int id = 2;
+                Thread newThread = new Thread(() =>
+                {
+                    Application.Run(new VoteForm(id));
+                });
+                newThread.SetApartmentState(ApartmentState.STA);
+                newThread.Start();
+                this.Close();
+            }
+        }
     }
 }
