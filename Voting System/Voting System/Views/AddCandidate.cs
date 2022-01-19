@@ -12,8 +12,10 @@ using Voting_System.Controllers;
 
 namespace Voting_System.Views
 {
+    
     public partial class AddCandidate : Form
     {
+        private TraceController tracecontroller = TraceController.getInstance();
         public AddCandidate()
         {
             InitializeComponent();
@@ -83,6 +85,7 @@ namespace Voting_System.Views
                 if (rezultat == ErrorCodes.Succes)
                 {
                     MessageBox.Show("Candidate added succesfully");
+                    tracecontroller.logMessage("Candidate added succesfully");
                     if (signUp.InvokeRequired)
                     {
                         object[] f = new object[1];
