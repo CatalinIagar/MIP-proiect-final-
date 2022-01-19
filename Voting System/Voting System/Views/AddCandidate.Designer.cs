@@ -36,15 +36,15 @@
             this.descLbl = new System.Windows.Forms.Label();
             this.closeBtn = new System.Windows.Forms.Button();
             this.addBtn = new System.Windows.Forms.Button();
-            this.description = new System.Windows.Forms.RichTextBox();
             this.labelImage = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.description = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lastTxt
             // 
             this.lastTxt.Location = new System.Drawing.Point(16, 86);
-            this.lastTxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lastTxt.Margin = new System.Windows.Forms.Padding(4);
             this.lastTxt.Name = "lastTxt";
             this.lastTxt.Size = new System.Drawing.Size(265, 22);
             this.lastTxt.TabIndex = 15;
@@ -62,7 +62,7 @@
             // firstTxt
             // 
             this.firstTxt.Location = new System.Drawing.Point(16, 37);
-            this.firstTxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.firstTxt.Margin = new System.Windows.Forms.Padding(4);
             this.firstTxt.Name = "firstTxt";
             this.firstTxt.Size = new System.Drawing.Size(265, 22);
             this.firstTxt.TabIndex = 13;
@@ -90,7 +90,7 @@
             // closeBtn
             // 
             this.closeBtn.Location = new System.Drawing.Point(165, 407);
-            this.closeBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.closeBtn.Margin = new System.Windows.Forms.Padding(4);
             this.closeBtn.Name = "closeBtn";
             this.closeBtn.Size = new System.Drawing.Size(116, 44);
             this.closeBtn.TabIndex = 19;
@@ -101,21 +101,13 @@
             // addBtn
             // 
             this.addBtn.Location = new System.Drawing.Point(15, 407);
-            this.addBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addBtn.Margin = new System.Windows.Forms.Padding(4);
             this.addBtn.Name = "addBtn";
             this.addBtn.Size = new System.Drawing.Size(116, 44);
             this.addBtn.TabIndex = 18;
             this.addBtn.Text = "Add";
             this.addBtn.UseVisualStyleBackColor = true;
             this.addBtn.Click += new System.EventHandler(this.addBtn_Click);
-            // 
-            // description
-            // 
-            this.description.Location = new System.Drawing.Point(12, 136);
-            this.description.Name = "description";
-            this.description.Size = new System.Drawing.Size(269, 190);
-            this.description.TabIndex = 20;
-            this.description.Text = "";
             // 
             // labelImage
             // 
@@ -136,14 +128,23 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // description
+            // 
+            this.description.Location = new System.Drawing.Point(13, 137);
+            this.description.Margin = new System.Windows.Forms.Padding(4);
+            this.description.Multiline = true;
+            this.description.Name = "description";
+            this.description.Size = new System.Drawing.Size(275, 189);
+            this.description.TabIndex = 23;
+            // 
             // AddCandidate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(301, 461);
+            this.Controls.Add(this.description);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.labelImage);
-            this.Controls.Add(this.description);
             this.Controls.Add(this.closeBtn);
             this.Controls.Add(this.addBtn);
             this.Controls.Add(this.descLbl);
@@ -152,7 +153,7 @@
             this.Controls.Add(this.firstTxt);
             this.Controls.Add(this.firstNameLbl);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AddCandidate";
             this.Text = "AddCandidate";
             this.ResumeLayout(false);
@@ -169,8 +170,8 @@
         private System.Windows.Forms.Label descLbl;
         private System.Windows.Forms.Button closeBtn;
         private System.Windows.Forms.Button addBtn;
-        private System.Windows.Forms.RichTextBox description;
         private System.Windows.Forms.Label labelImage;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox description;
     }
 }

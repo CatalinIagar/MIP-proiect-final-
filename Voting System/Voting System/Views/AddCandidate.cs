@@ -90,8 +90,7 @@ namespace Voting_System.Views
                 {
                     MessageBox.Show("Candidate added succesfully");
                     //xml
-                    // XmlController.InsertXml(@"data\candidati.xml",)
-
+                    XmlController.InsertXml(@"data\candidati.xml", 2, FirstName, LastName,Description, fileName);
 
                     //
                     tracecontroller.logMessage("Candidate added succesfully");

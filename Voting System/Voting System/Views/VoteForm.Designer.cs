@@ -64,6 +64,7 @@
             this.Votebtn.TabIndex = 3;
             this.Votebtn.Text = "Vote";
             this.Votebtn.UseVisualStyleBackColor = true;
+            this.Votebtn.Click += new System.EventHandler(this.Votebtn_Click);
             // 
             // VoteForm
             // 

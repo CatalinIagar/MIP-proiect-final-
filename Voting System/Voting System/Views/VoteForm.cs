@@ -24,5 +24,9 @@ namespace Voting_System.Views {
             Console.WriteLine(bitmap.Width+ " " + bitmap.Height);
             name.Text = "aLEXANDRU cRACIUN";
         }
+
+        private void Votebtn_Click(object sender, EventArgs e) {
+
+        }
     }
 }
