@@ -61,5 +61,16 @@ namespace Voting_System.Controllers {
                 return (count > 0);
             }
         }
+
+        public static int GetUserID(string username) {
+            using (UserDbContext udb = new UserDbContext()) {
+                int id = (from u in udb.Users
+                          where u.Username == username
+                          select u.ID
+                          ).First();
+
+                return id;
+            }
+        }
     }
 }
