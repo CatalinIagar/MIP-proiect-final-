@@ -50,5 +50,19 @@ namespace Voting_System
                 MessageBox.Show("Incorrect password");
             }
         }
+
+        private void button1_Click(object sender, EventArgs e) {
+            /*
+            Thread newThread = new Thread(() =>
+            {
+                Application.Run(new VoteForm());
+            });
+            newThread.SetApartmentState(ApartmentState.STA);
+            newThread.Start();
+            this.Close();
+            */
+            XmlController.InsertXml(@"data\out.xml", 33, "sss", "ssss", "descriere","sssss.jpg");
+            Console.WriteLine(XmlController.getImageXml(@"data\out.xml", 33));
+        }
     }
 }

@@ -11,7 +11,7 @@ namespace XMLLibrary
 {
     public class XmlHandler
     {
-         public bool insertXml(string directoryAndFile,int id, string fname, string lname, string descriere) {
+         public bool insertXml(string directoryAndFile,int id, string fname, string lname, string descriere, string imageName) {
 
             string basePath = Environment.CurrentDirectory;
             string relativePath = directoryAndFile;
@@ -25,6 +25,7 @@ namespace XMLLibrary
                 root.Add(new XElement("Nume", fname));
                 root.Add(new XElement("Prenume", lname));
                 root.Add(new XElement("Descriere", descriere));
+                root.Add(new XElement("ImageSource" ,imageName));
                 doc.Element("Candidati").Add(root);
                 doc.Save(fullPath);
                 
@@ -45,8 +46,10 @@ namespace XMLLibrary
                     wt.WriteElementString("Nume", fname);
                     wt.WriteWhitespace("\n\t");
                     wt.WriteElementString("Prenume", lname);
-                    wt.WriteWhitespace("\n");
+                    wt.WriteWhitespace("\n\t");
                     wt.WriteElementString("Descriere", descriere);
+                    wt.WriteWhitespace("\n\t");
+                    wt.WriteElementString("ImageSource", imageName);                 
                     wt.WriteWhitespace("\n");
                     wt.WriteEndElement();
                     wt.WriteWhitespace("\n");
@@ -112,6 +115,31 @@ namespace XMLLibrary
 
                     if (element.Attribute("Id").Value == id.ToString()) {
                         return element.Element("Descriere").Value.ToString();
+                    }
+                }
+
+            }
+            catch (FileNotFoundException ee) {
+                Console.WriteLine("Eroare: " + ee.Message);
+                return "";
+            }
+            return "";
+        }
+
+        public string getImageName(string directoryAndFile, int id) {
+
+            string basePath = Environment.CurrentDirectory;
+            string relativePath = directoryAndFile;
+            string fullPath = Path.Combine(basePath, relativePath);
+
+            try {
+
+                XElement xelem = XElement.Load(fullPath);
+
+                foreach (XElement element in xelem.Elements("Candidat")) {
+
+                    if (element.Attribute("Id").Value == id.ToString()) {
+                        return element.Element("ImageSource").Value.ToString();
                     }
                 }
 
