@@ -13,8 +13,11 @@ using Voting_System.Controllers;
 
 namespace Voting_System.Views {
     public partial class UserForm : Form {
-        public UserForm() {
+
+        private int userId;
+        public UserForm(int userId) {
             InitializeComponent();
+            this.userId = userId;
         }
 
         public async void LoadData () {
