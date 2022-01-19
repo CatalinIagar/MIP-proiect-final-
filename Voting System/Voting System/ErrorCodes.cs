@@ -18,5 +18,10 @@ namespace Voting_System
         public readonly static int CNPLengthError = 7;
         public readonly static int InvalidCNP = 8;
         public readonly static int Succes = 9;
+
+        public readonly static int DescriptionLessThan50 = 10;
+        public readonly static int DescriptionMoreThan200 = 11;
+        public readonly static int DescriptionNull = 12;
+
     }
 }

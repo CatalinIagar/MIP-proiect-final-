@@ -48,3 +48,5 @@ D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System
 D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.csproj.CopyComplete
 D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.exe
 D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting System.pdb
+C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.Admin.resources
+C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.AddCandidate.resources
