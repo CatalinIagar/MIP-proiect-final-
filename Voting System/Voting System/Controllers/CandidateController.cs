@@ -65,6 +65,6 @@ namespace Voting_System.Controllers {
 
                 return id;
             }
-        }
+        } 
     }
 }

@@ -50,5 +50,16 @@ namespace Voting_System.Controllers {
             }
             return ErrorCodes.Succes;
         }
+
+        public static bool UserExists(string username, int hashed_pwd) {
+            using (UserDbContext udb = new UserDbContext()) {
+                int count = (from u in udb.Users
+                             where u.Username == username && u.Password == hashed_pwd
+                             select u
+                             ).Count();
+
+                return (count > 0);
+            }
+        }
     }
 }
