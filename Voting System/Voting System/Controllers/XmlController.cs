@@ -10,6 +10,7 @@ using System.IO;
 namespace Voting_System.Controllers {
     public class XmlController {
 
+      private static TraceController traceController = TraceController.getInstance();
       private static bool runInsertMethod(string directoryAndFile, int id, string fname, string lname, string descriere) {
 
             string basePath = Environment.CurrentDirectory;
@@ -19,7 +20,7 @@ namespace Voting_System.Controllers {
             Assembly reflDLL = Assembly.LoadFile(fullPath);
 
             if (reflDLL == null) {
-                Console.WriteLine("Assambley negasit!");
+                traceController.logMessage("Assambley negasit");
                 return false;
             }
             else {
@@ -30,7 +31,7 @@ namespace Voting_System.Controllers {
                    return true;
                 }
                 catch (System.NullReferenceException eeeee) {
-                    Console.WriteLine(eeeee.Message);
+                    traceController.logMessage(eeeee.Message);
                     return false;
                 }
                
@@ -47,7 +48,7 @@ namespace Voting_System.Controllers {
             Assembly reflDLL = Assembly.LoadFile(fullPath);
 
             if (reflDLL == null) {
-                Console.WriteLine("Assambley negasit!");
+                traceController.logMessage("Assambley negasit!");
                 return false;
             }
             else {
@@ -58,7 +59,7 @@ namespace Voting_System.Controllers {
                     return true;
                 }
                 catch (System.NullReferenceException eeeee) {
-                    Console.WriteLine(eeeee.Message);
+                    traceController.logMessage(eeeee.Message);
                     return false;
                 }
 
@@ -75,7 +76,7 @@ namespace Voting_System.Controllers {
             Assembly reflDLL = Assembly.LoadFile(fullPath);
 
             if (reflDLL == null) {
-                Console.WriteLine("Assambley negasit!");
+                traceController.logMessage("Assambley negasit!");
                 return "";
             }
             else {
@@ -86,7 +87,7 @@ namespace Voting_System.Controllers {
                     return description;
                 }
                 catch (System.NullReferenceException eeeee) {
-                    Console.WriteLine(eeeee.Message);
+                    traceController.logMessage(eeeee.Message);
                     return "";
                 }
 
@@ -103,7 +104,8 @@ namespace Voting_System.Controllers {
             Assembly reflDLL = Assembly.LoadFile(fullPath);
 
             if (reflDLL == null) {
-                Console.WriteLine("Assambley negasit!");
+
+                traceController.logMessage("Assambley negasit!");
                 return false;
             }
             else {
@@ -114,7 +116,7 @@ namespace Voting_System.Controllers {
                         return true;
                 }
                 catch (System.NullReferenceException eeeee) {
-                    Console.WriteLine(eeeee.Message);
+                    traceController.logMessage(eeeee.Message);
                     return false;
                 }
 
@@ -133,7 +135,7 @@ namespace Voting_System.Controllers {
             try {
                 thread.Join();
             }catch(ThreadInterruptedException ex) {
-                Console.WriteLine(ex.Message);
+               traceController.logMessage(ex.Message);
             }
 
             return check;
@@ -150,7 +152,7 @@ namespace Voting_System.Controllers {
                 thread.Join();
             }
             catch (ThreadInterruptedException ex) {
-                Console.WriteLine(ex.Message);
+                traceController.logMessage(ex.Message);
             }
 
             return check;
@@ -167,7 +169,7 @@ namespace Voting_System.Controllers {
                 thread.Join();
             }
             catch (ThreadInterruptedException ex) {
-                Console.WriteLine(ex.Message);
+                traceController.logMessage(ex.Message);
             }
 
             return check;
@@ -184,7 +186,7 @@ namespace Voting_System.Controllers {
                 thread.Join();
             }
             catch (ThreadInterruptedException ex) {
-                Console.WriteLine(ex.Message);
+                traceController.logMessage(ex.Message);
             }
 
             return check;
