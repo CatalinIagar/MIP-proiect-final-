@@ -18,7 +18,7 @@ namespace Voting_System.Views {
             InitializeComponent();
          
             descriptionrichTextBox.Text = XmlController.getDescriptionXml(@"data\candidati.xml", id);
-            name.Text = "sssssssssssssss";
+            name.Text = CandidateController.GetFullName(id);
             string imageName = XmlController.getImageXml(@"data\candidati.xml", id);
 
             string basePath = Environment.CurrentDirectory;
@@ -27,8 +27,12 @@ namespace Voting_System.Views {
             fullPath = Path.Combine(fullPath,imageName);
             Console.WriteLine(fullPath);
 
-           Bitmap bitmap = new Bitmap(fullPath);
-            pictureBox.Image = bitmap;
+            Size size = new Size(220, 220);
+            Bitmap bitmap = new Bitmap(fullPath);
+            Bitmap bitmap1 = new Bitmap(bitmap, new Size(220,220));
+           
+            pictureBox.Image = bitmap1;
+
           // pictureBox.ClientSize = new Size(220, 220); //220,220
          
         
