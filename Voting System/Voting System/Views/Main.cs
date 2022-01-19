@@ -31,7 +31,7 @@ namespace Voting_System
         }
 
         private void adminBtn_Click(object sender, EventArgs e) {
-         
+           
         }
     }
 }

@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\CandidateController.cs" />
+    <Compile Include="Controllers\TraceController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\XmlController.cs" />
     <Compile Include="ErrorCodes.cs" />
