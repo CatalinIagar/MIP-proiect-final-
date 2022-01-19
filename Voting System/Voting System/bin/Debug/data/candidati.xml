@@ -1,9 +1,15 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Candidati>
-<Candidat Id="5">
-	<Nume>Copiil</Nume>
-	<Prenume>Prost</Prenume>
-	<Descriere>sunt un copil prosttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt</Descriere>
-	<ImageSource>download.jfif</ImageSource>
-</Candidat>
+  <Candidat Id="5">
+    <Nume>Copiil</Nume>
+    <Prenume>Prost</Prenume>
+    <Descriere>sunt un copil prosttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt</Descriere>
+    <ImageSource>download.jfif</ImageSource>
+  </Candidat>
+  <Candidat Id="6">
+    <Nume>Codrea</Nume>
+    <Prenume>Nebunu</Prenume>
+    <Descriere>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</Descriere>
+    <ImageSource>maxresdefault.jpg</ImageSource>
+  </Candidat>
 </Candidati>

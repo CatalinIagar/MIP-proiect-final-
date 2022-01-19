@@ -17,6 +17,9 @@ namespace Voting_System.Views {
         private int userId;
         public UserForm(int userId) {
             InitializeComponent();
+
+            LoadData();
+
             this.userId = userId;
         }
 

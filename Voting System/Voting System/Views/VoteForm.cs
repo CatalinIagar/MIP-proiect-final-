@@ -19,6 +19,10 @@ namespace Voting_System.Views {
 
             InitializeComponent();
 
+            bool hasVoted = UserController.GetVoteState(userId);
+            if (hasVoted == true) Votebtn.Enabled = false;
+            else Votebtn.Enabled = true;
+
             this.candidateId = candidateId;
             this.userId = userId;
          
@@ -58,6 +62,7 @@ namespace Voting_System.Views {
         private void Votebtn_Click(object sender, EventArgs e) {
             CandidateController.IncermentCandidateVotes(candidateId);
             UserController.ChangeVoteState(userId, candidateId);
+            this.Close();
         }
     }
 }

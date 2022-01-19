@@ -64,13 +64,11 @@ namespace Voting_System.Controllers {
         }
 
         public static int GetUserID(string username) {
+            Console.WriteLine(username);
             using (UserDbContext udb = new UserDbContext()) {
-                int id = (from u in udb.Users
-                          where u.Username == username
-                          select u.ID
-                          ).First();
+                UserModel user = udb.Users.Where(i => i.Username == username).First();
 
-                return id;
+                return user.ID;
             }
         }
 

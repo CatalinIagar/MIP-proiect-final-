@@ -39,55 +39,48 @@
             this.adminBtn = new System.Windows.Forms.Button();
             this.adminPassTxt = new System.Windows.Forms.TextBox();
             this.adminPassLbl = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // passwordLbl
             // 
             this.passwordLbl.AutoSize = true;
-            this.passwordLbl.Location = new System.Drawing.Point(371, 85);
-            this.passwordLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.passwordLbl.Location = new System.Drawing.Point(278, 69);
             this.passwordLbl.Name = "passwordLbl";
-            this.passwordLbl.Size = new System.Drawing.Size(69, 17);
+            this.passwordLbl.Size = new System.Drawing.Size(53, 13);
             this.passwordLbl.TabIndex = 0;
             this.passwordLbl.Text = "Password";
             // 
             // passwordTextBox
             // 
-            this.passwordTextBox.Location = new System.Drawing.Point(375, 105);
-            this.passwordTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.passwordTextBox.Location = new System.Drawing.Point(281, 85);
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.PasswordChar = '*';
-            this.passwordTextBox.Size = new System.Drawing.Size(249, 22);
+            this.passwordTextBox.Size = new System.Drawing.Size(188, 20);
             this.passwordTextBox.TabIndex = 1;
             // 
             // usernameTxtBox
             // 
-            this.usernameTxtBox.Location = new System.Drawing.Point(375, 49);
-            this.usernameTxtBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.usernameTxtBox.Location = new System.Drawing.Point(281, 40);
             this.usernameTxtBox.Name = "usernameTxtBox";
-            this.usernameTxtBox.Size = new System.Drawing.Size(249, 22);
+            this.usernameTxtBox.Size = new System.Drawing.Size(188, 20);
             this.usernameTxtBox.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(371, 28);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(278, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 17);
+            this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Username";
             // 
             // loginBtn
             // 
-            this.loginBtn.Location = new System.Drawing.Point(375, 156);
-            this.loginBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.loginBtn.Location = new System.Drawing.Point(281, 127);
             this.loginBtn.Name = "loginBtn";
-            this.loginBtn.Size = new System.Drawing.Size(116, 44);
+            this.loginBtn.Size = new System.Drawing.Size(87, 36);
             this.loginBtn.TabIndex = 5;
             this.loginBtn.Text = "Log in";
             this.loginBtn.UseVisualStyleBackColor = true;
@@ -95,10 +88,9 @@
             // 
             // closeBtn
             // 
-            this.closeBtn.Location = new System.Drawing.Point(509, 156);
-            this.closeBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.closeBtn.Location = new System.Drawing.Point(382, 127);
             this.closeBtn.Name = "closeBtn";
-            this.closeBtn.Size = new System.Drawing.Size(116, 44);
+            this.closeBtn.Size = new System.Drawing.Size(87, 36);
             this.closeBtn.TabIndex = 6;
             this.closeBtn.Text = "Close";
             this.closeBtn.UseVisualStyleBackColor = true;
@@ -106,10 +98,9 @@
             // 
             // signupBtn
             // 
-            this.signupBtn.Location = new System.Drawing.Point(439, 208);
-            this.signupBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.signupBtn.Location = new System.Drawing.Point(329, 169);
             this.signupBtn.Name = "signupBtn";
-            this.signupBtn.Size = new System.Drawing.Size(116, 32);
+            this.signupBtn.Size = new System.Drawing.Size(87, 26);
             this.signupBtn.TabIndex = 7;
             this.signupBtn.Text = "Sign up";
             this.signupBtn.UseVisualStyleBackColor = true;
@@ -117,10 +108,9 @@
             // 
             // adminBtn
             // 
-            this.adminBtn.Location = new System.Drawing.Point(509, 283);
-            this.adminBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.adminBtn.Location = new System.Drawing.Point(382, 230);
             this.adminBtn.Name = "adminBtn";
-            this.adminBtn.Size = new System.Drawing.Size(116, 44);
+            this.adminBtn.Size = new System.Drawing.Size(87, 36);
             this.adminBtn.TabIndex = 8;
             this.adminBtn.Text = "Login as Admin";
             this.adminBtn.UseVisualStyleBackColor = true;
@@ -128,61 +118,34 @@
             // 
             // adminPassTxt
             // 
-            this.adminPassTxt.Location = new System.Drawing.Point(375, 303);
-            this.adminPassTxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.adminPassTxt.Location = new System.Drawing.Point(281, 246);
             this.adminPassTxt.Name = "adminPassTxt";
             this.adminPassTxt.PasswordChar = '*';
-            this.adminPassTxt.Size = new System.Drawing.Size(115, 22);
+            this.adminPassTxt.Size = new System.Drawing.Size(87, 20);
             this.adminPassTxt.TabIndex = 10;
             // 
             // adminPassLbl
             // 
             this.adminPassLbl.AutoSize = true;
-            this.adminPassLbl.Location = new System.Drawing.Point(371, 283);
-            this.adminPassLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.adminPassLbl.Location = new System.Drawing.Point(278, 230);
             this.adminPassLbl.Name = "adminPassLbl";
-            this.adminPassLbl.Size = new System.Drawing.Size(111, 17);
+            this.adminPassLbl.Size = new System.Drawing.Size(84, 13);
             this.adminPassLbl.TabIndex = 9;
             this.adminPassLbl.Text = "Admin password";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(365, 247);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(16, 12);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 10);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(341, 315);
+            this.pictureBox1.Size = new System.Drawing.Size(256, 256);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(447, 247);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(649, 342);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(487, 278);
             this.Controls.Add(this.adminPassTxt);
             this.Controls.Add(this.adminPassLbl);
             this.Controls.Add(this.adminBtn);
@@ -195,7 +158,6 @@
             this.Controls.Add(this.passwordTextBox);
             this.Controls.Add(this.passwordLbl);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Main";
             this.Text = "Voting System";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -217,8 +179,6 @@
         private System.Windows.Forms.Button adminBtn;
         private System.Windows.Forms.TextBox adminPassTxt;
         private System.Windows.Forms.Label adminPassLbl;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
     }
 }
 
