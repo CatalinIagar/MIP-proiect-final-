@@ -64,3 +64,7 @@ C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting
 C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\bin\Debug\ro\Voting System.resources.dll
 C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\ro\Voting System.resources.dll
 C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.SignUpForm.ro.resources
+C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.Admin.ro.resources
+C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.AddCandidate.ro.resources
+C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.UserForm.ro.resources
+C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.VoteForm.ro.resources

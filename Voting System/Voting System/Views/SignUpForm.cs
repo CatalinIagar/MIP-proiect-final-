@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Voting_System.Models;
 using Voting_System.Controllers;
+using System.Configuration;
 
 namespace Voting_System.Views
 {
@@ -64,45 +65,57 @@ namespace Voting_System.Views
 
                 int rezultat = UserController.NewUser(Username, Password, FirstName, LastName, DateOfBirth, CNP);
 
-                if(rezultat == ErrorCodes.UsernameExistent)
+                var language = ConfigurationManager.AppSettings["language"];
+
+                if (rezultat == ErrorCodes.UsernameExistent)
                 {
-                    MessageBox.Show("Username already exists");
+                    if (language == "ro") MessageBox.Show("Numele de utilizator exista deja");
+                    if (language == "en") MessageBox.Show("Username already exists");
                 }
                 if (rezultat == ErrorCodes.UsernameNull)
                 {
-                    MessageBox.Show("Please complete username field");
+                    if (language == "ro") MessageBox.Show("Va rugam completati numele de utilizator");
+                    if (language == "en") MessageBox.Show("Please complete username field");
                 }
                 if (rezultat == ErrorCodes.PasswordNull)
                 {
-                    MessageBox.Show("Please complete password field");
+                    if (language == "ro") MessageBox.Show("Va rugam completati parola");
+                    if (language == "en") MessageBox.Show("Please complete password field");
                 }
                 if (rezultat == ErrorCodes.FirstNameNull)
                 {
-                    MessageBox.Show("Please complete first name field");
+                    if (language == "ro") MessageBox.Show("Va rugam completati numele");
+                    if (language == "en") MessageBox.Show("Please complete first name field");
                 }
                 if (rezultat == ErrorCodes.LastPassNull)
                 {
-                    MessageBox.Show("Please complete last name field");
+                    if (language == "ro") MessageBox.Show("Va rugam completati prenumele");
+                    if (language == "en") MessageBox.Show("Please complete last name field");
                 }
                 if (rezultat == ErrorCodes.DOBNull)
                 {
-                    MessageBox.Show("Please complete Date of bith field");
+                    if (language == "ro") MessageBox.Show("Va rugam completati data de nastere");
+                    if (language == "en") MessageBox.Show("Please complete Date of bith field");
                 }
                 if (rezultat == ErrorCodes.CNPNULL)
                 {
-                    MessageBox.Show("Please complete CNP field");
+                    if (language == "ro") MessageBox.Show("Va rugam completati CNP-ul");
+                    if (language == "en") MessageBox.Show("Please complete CNP field");
                 }
                 if (rezultat == ErrorCodes.CNPLengthError)
                 {
-                    MessageBox.Show("CNP does not meet the required length");
+                    if (language == "ro") MessageBox.Show("Numarul de cifre din CNP gresit");
+                    if (language == "en") MessageBox.Show("CNP does not meet the required length");
                 }
                 if (rezultat == ErrorCodes.InvalidCNP)
                 {
-                    MessageBox.Show("CNP invalid");
+                    if (language == "ro") MessageBox.Show("CNP invalid");
+                    if (language == "en") MessageBox.Show("CNP invalid");
                 }
                 if (rezultat == ErrorCodes.Succes)
                 {
-                    MessageBox.Show("Account succesfully created");
+                    if (language == "ro") MessageBox.Show("Cont creat cu succes");
+                    if (language == "en") MessageBox.Show("Account succesfully created");
                     if (signUp.InvokeRequired)
                     {
                         object[] f = new object[1];

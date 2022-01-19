@@ -32,14 +32,6 @@ namespace Voting_System.Controllers {
             using (CandidateDbContext cdb = new CandidateDbContext()) {
                 var candidates = (from c in cdb.Candidates
                                  select c).ToList();
-
-                /*var candidates = (from c in cdb.Candidates  // can't return anonymous type 
-                                    select new { 
-                                        c.ID,
-                                        c.FirstName,
-                                        c.LastName
-                                    }).ToList();*/
-
                 return candidates;
             }
         }

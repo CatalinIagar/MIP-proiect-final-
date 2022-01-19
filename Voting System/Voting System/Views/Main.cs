@@ -11,6 +11,7 @@ using Voting_System.Views;
 using Voting_System.Controllers;
 
 using System.Threading;
+using System.Configuration;
 
 namespace Voting_System
 {
@@ -47,7 +48,10 @@ namespace Voting_System
             }
             else
             {
-                MessageBox.Show("Incorrect password");
+                var language = ConfigurationManager.AppSettings["language"];
+
+                if (language == "ro") MessageBox.Show("Parola incorecta");
+                if (language == "en") MessageBox.Show("Incorrect password");
             }
         }
         private void loginBtn_Click(object sender, EventArgs e)

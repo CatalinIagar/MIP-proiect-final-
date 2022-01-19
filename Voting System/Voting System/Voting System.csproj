@@ -111,7 +111,13 @@
     <EmbeddedResource Include="Views\AddCandidate.resx">
       <DependentUpon>AddCandidate.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\AddCandidate.ro.resx">
+      <DependentUpon>AddCandidate.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin.ro.resx">
       <DependentUpon>Admin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Main.resx">
@@ -134,7 +140,13 @@
     <EmbeddedResource Include="Views\UserForm.resx">
       <DependentUpon>UserForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserForm.ro.resx">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\VoteForm.resx">
+      <DependentUpon>VoteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\VoteForm.ro.resx">
       <DependentUpon>VoteForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />

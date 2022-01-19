@@ -43,105 +43,64 @@
             // 
             // lastTxt
             // 
-            this.lastTxt.Location = new System.Drawing.Point(16, 86);
-            this.lastTxt.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.lastTxt, "lastTxt");
             this.lastTxt.Name = "lastTxt";
-            this.lastTxt.Size = new System.Drawing.Size(265, 22);
-            this.lastTxt.TabIndex = 15;
             // 
             // lastNameLbl
             // 
-            this.lastNameLbl.AutoSize = true;
-            this.lastNameLbl.Location = new System.Drawing.Point(12, 65);
-            this.lastNameLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.lastNameLbl, "lastNameLbl");
             this.lastNameLbl.Name = "lastNameLbl";
-            this.lastNameLbl.Size = new System.Drawing.Size(72, 16);
-            this.lastNameLbl.TabIndex = 14;
-            this.lastNameLbl.Text = "Last Name";
             // 
             // firstTxt
             // 
-            this.firstTxt.Location = new System.Drawing.Point(16, 37);
-            this.firstTxt.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.firstTxt, "firstTxt");
             this.firstTxt.Name = "firstTxt";
-            this.firstTxt.Size = new System.Drawing.Size(265, 22);
-            this.firstTxt.TabIndex = 13;
             // 
             // firstNameLbl
             // 
-            this.firstNameLbl.AutoSize = true;
-            this.firstNameLbl.Location = new System.Drawing.Point(12, 16);
-            this.firstNameLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.firstNameLbl, "firstNameLbl");
             this.firstNameLbl.Name = "firstNameLbl";
-            this.firstNameLbl.Size = new System.Drawing.Size(72, 16);
-            this.firstNameLbl.TabIndex = 12;
-            this.firstNameLbl.Text = "First Name";
             // 
             // descLbl
             // 
-            this.descLbl.AutoSize = true;
-            this.descLbl.Location = new System.Drawing.Point(12, 117);
-            this.descLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.descLbl, "descLbl");
             this.descLbl.Name = "descLbl";
-            this.descLbl.Size = new System.Drawing.Size(75, 16);
-            this.descLbl.TabIndex = 16;
-            this.descLbl.Text = "Description";
             // 
             // closeBtn
             // 
-            this.closeBtn.Location = new System.Drawing.Point(165, 407);
-            this.closeBtn.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.closeBtn, "closeBtn");
             this.closeBtn.Name = "closeBtn";
-            this.closeBtn.Size = new System.Drawing.Size(116, 44);
-            this.closeBtn.TabIndex = 19;
-            this.closeBtn.Text = "Close";
             this.closeBtn.UseVisualStyleBackColor = true;
             this.closeBtn.Click += new System.EventHandler(this.closeBtn_Click);
             // 
             // addBtn
             // 
-            this.addBtn.Location = new System.Drawing.Point(15, 407);
-            this.addBtn.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.addBtn, "addBtn");
             this.addBtn.Name = "addBtn";
-            this.addBtn.Size = new System.Drawing.Size(116, 44);
-            this.addBtn.TabIndex = 18;
-            this.addBtn.Text = "Add";
             this.addBtn.UseVisualStyleBackColor = true;
             this.addBtn.Click += new System.EventHandler(this.addBtn_Click);
             // 
             // labelImage
             // 
-            this.labelImage.AutoSize = true;
-            this.labelImage.Location = new System.Drawing.Point(12, 330);
+            resources.ApplyResources(this.labelImage, "labelImage");
             this.labelImage.Name = "labelImage";
-            this.labelImage.Size = new System.Drawing.Size(60, 16);
-            this.labelImage.TabIndex = 21;
-            this.labelImage.Text = "*Imagine";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 349);
+            resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "Select Image";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // description
             // 
-            this.description.Location = new System.Drawing.Point(13, 137);
-            this.description.Margin = new System.Windows.Forms.Padding(4);
-            this.description.Multiline = true;
+            resources.ApplyResources(this.description, "description");
             this.description.Name = "description";
-            this.description.Size = new System.Drawing.Size(275, 189);
-            this.description.TabIndex = 23;
             // 
             // AddCandidate
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(301, 461);
             this.Controls.Add(this.description);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.labelImage);
@@ -152,10 +111,7 @@
             this.Controls.Add(this.lastNameLbl);
             this.Controls.Add(this.firstTxt);
             this.Controls.Add(this.firstNameLbl);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AddCandidate";
-            this.Text = "AddCandidate";
             this.ResumeLayout(false);
             this.PerformLayout();
 

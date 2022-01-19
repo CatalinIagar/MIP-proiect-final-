@@ -41,22 +41,6 @@ namespace Voting_System.Views {
             Bitmap bitmap1 = new Bitmap(bitmap, new Size(220,220));
            
             pictureBox.Image = bitmap1;
-
-          // pictureBox.ClientSize = new Size(220, 220); //220,220
-         
-        
-            /*
-            descriptionrichTextBox.Text = "Sunt Razavan si sunt un bombardier.CHeck.Chec";
-            string basePath = Environment.CurrentDirectory;
-            string relativePath = @"data\person.png";
-            string fullPath = Path.Combine(basePath, relativePath);
-          
-            Bitmap bitmap = new Bitmap(fullPath);
-            pictureBox.Image = bitmap;
-            pictureBox.ClientSize = new Size(220, 220); //220,220
-            Console.WriteLine(bitmap.Width+ " " + bitmap.Height);
-            name.Text = "aLEXANDRU cRACIUN";
-            */
         }
 
         private void Votebtn_Click(object sender, EventArgs e) {

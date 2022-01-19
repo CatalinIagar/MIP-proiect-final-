@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
 
 using Voting_System.Controllers;
 
@@ -66,29 +67,38 @@ namespace Voting_System.Views
 
                 int rezultat = CandidateController.NewCandidate(FirstName, LastName, Description);
 
+                var language = ConfigurationManager.AppSettings["language"];
+
                 if (rezultat == ErrorCodes.FirstNameNull)
                 {
-                    MessageBox.Show("Please complete first name field");
+                    if (language == "ro") MessageBox.Show("Va rugam completati numele");
+                    if (language == "en") MessageBox.Show("Please complete first name field");
+
                 }
                 if (rezultat == ErrorCodes.LastPassNull)
                 {
-                    MessageBox.Show("Please complete last name field");
+                    if (language == "ro") MessageBox.Show("Va rugam completati prenumele");
+                    if (language == "en") MessageBox.Show("Please complete last name field");
                 }
                 if (rezultat == ErrorCodes.DescriptionNull)
                 {
-                    MessageBox.Show("Please complete description field");
+                    if (language == "ro") MessageBox.Show("Va rugam completati descrierea");
+                    if (language == "en") MessageBox.Show("Please complete description field");
                 }
                 if (rezultat == ErrorCodes.DescriptionLessThan50)
                 {
-                    MessageBox.Show("Description too short");
+                    if (language == "ro") MessageBox.Show("Descriere prea scurta");
+                    if (language == "en") MessageBox.Show("Description too short");
                 }
                 if (rezultat == ErrorCodes.DescriptionMoreThan200)
                 {
-                    MessageBox.Show("Description too long");
+                    if (language == "ro") MessageBox.Show("Descriere prea lunga");
+                    if (language == "en") MessageBox.Show("Description too long");
                 }
                 if (rezultat == ErrorCodes.Succes)
                 {
-                    MessageBox.Show("Candidate added succesfully");
+                    if (language == "ro") MessageBox.Show("Candidat adaugat cu succes");
+                    if (language == "en") MessageBox.Show("Candidate added succesfully");
                     //xml
                     XmlController.InsertXml(@"data\candidati.xml", CandidateController.GetCandidateID(FirstName, LastName), FirstName, LastName,Description, fileName);
 

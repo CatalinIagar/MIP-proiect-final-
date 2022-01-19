@@ -23,6 +23,7 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VoteForm));
             this.pictureBox = new System.Windows.Forms.PictureBox();
             this.descriptionrichTextBox = new System.Windows.Forms.RichTextBox();
             this.name = new System.Windows.Forms.Label();
@@ -32,51 +33,37 @@
             // 
             // pictureBox
             // 
-            this.pictureBox.Location = new System.Drawing.Point(19, 17);
+            resources.ApplyResources(this.pictureBox, "pictureBox");
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(306, 273);
-            this.pictureBox.TabIndex = 0;
             this.pictureBox.TabStop = false;
             // 
             // descriptionrichTextBox
             // 
-            this.descriptionrichTextBox.Location = new System.Drawing.Point(343, 12);
+            resources.ApplyResources(this.descriptionrichTextBox, "descriptionrichTextBox");
             this.descriptionrichTextBox.Name = "descriptionrichTextBox";
             this.descriptionrichTextBox.ReadOnly = true;
-            this.descriptionrichTextBox.Size = new System.Drawing.Size(445, 426);
-            this.descriptionrichTextBox.TabIndex = 1;
-            this.descriptionrichTextBox.Text = "";
             // 
             // name
             // 
-            this.name.AutoSize = true;
-            this.name.Location = new System.Drawing.Point(114, 304);
+            resources.ApplyResources(this.name, "name");
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(44, 16);
-            this.name.TabIndex = 2;
-            this.name.Text = "label1";
             // 
             // Votebtn
             // 
-            this.Votebtn.Location = new System.Drawing.Point(42, 358);
+            resources.ApplyResources(this.Votebtn, "Votebtn");
             this.Votebtn.Name = "Votebtn";
-            this.Votebtn.Size = new System.Drawing.Size(270, 65);
-            this.Votebtn.TabIndex = 3;
-            this.Votebtn.Text = "Vote";
             this.Votebtn.UseVisualStyleBackColor = true;
             this.Votebtn.Click += new System.EventHandler(this.Votebtn_Click);
             // 
             // VoteForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Votebtn);
             this.Controls.Add(this.name);
             this.Controls.Add(this.descriptionrichTextBox);
             this.Controls.Add(this.pictureBox);
             this.Name = "VoteForm";
-            this.Text = "VoteForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
