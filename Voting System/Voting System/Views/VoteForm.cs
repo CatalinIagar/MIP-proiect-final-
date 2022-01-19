@@ -30,17 +30,19 @@ namespace Voting_System.Views {
             name.Text = CandidateController.GetFullName(candidateId);
             string imageName = XmlController.getImageXml(@"data\candidati.xml", candidateId);
 
-            string basePath = Environment.CurrentDirectory;
-            string relativePath = "data";
-            string fullPath = Path.Combine(basePath, relativePath);
-            fullPath = Path.Combine(fullPath,imageName);
-            Console.WriteLine(fullPath);
+            if(imageName != "")
+            {
+                string basePath = Environment.CurrentDirectory;
+                string relativePath = "data";
+                string fullPath = Path.Combine(basePath, relativePath);
+                fullPath = Path.Combine(fullPath, imageName);
 
-            Size size = new Size(220, 220);
-            Bitmap bitmap = new Bitmap(fullPath);
-            Bitmap bitmap1 = new Bitmap(bitmap, new Size(220,220));
-           
-            pictureBox.Image = bitmap1;
+                Size size = new Size(220, 220);
+                Bitmap bitmap = new Bitmap(fullPath);
+                Bitmap bitmap1 = new Bitmap(bitmap, new Size(220, 220));
+
+                pictureBox.Image = bitmap1;
+            }
         }
 
         private void Votebtn_Click(object sender, EventArgs e) {
