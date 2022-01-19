@@ -64,5 +64,16 @@ namespace Voting_System
           //  XmlController.InsertXml(@"data\out.xml", 33, "sss", "ssss", "descriere","sssss.jpg");
             //Console.WriteLine(XmlController.getImageXml(@"data\out.xml", 33));
         }
+
+        private void button2_Click(object sender, EventArgs e) {
+
+            Thread newThread = new Thread(() => {
+                Application.Run(new UserForm());
+            });
+            newThread.SetApartmentState(ApartmentState.STA);
+            newThread.Start();
+            this.Close();
+
+        }
     }
 }

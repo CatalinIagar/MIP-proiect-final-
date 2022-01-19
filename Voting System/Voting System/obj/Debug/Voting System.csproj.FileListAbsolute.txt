@@ -56,3 +56,4 @@ D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System
 C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.AddCandidate.resources
 C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.Admin.resources
 C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.VoteForm.resources
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.UserForm.resources
