@@ -27,5 +27,33 @@ namespace Voting_System.Controllers {
             }
             return ErrorCodes.Succes;
         }
+
+        public static List<CandidateModel> GetAllCandidates (int id) {
+            using (CandidateDbContext cdb = new CandidateDbContext()) {
+                var candidates = (from c in cdb.Candidates
+                                 select c).ToList();
+
+                /*var candidates = (from c in cdb.Candidates  // can't return anonymous type 
+                                    select new { 
+                                        c.ID,
+                                        c.FirstName,
+                                        c.LastName
+                                    }).ToList();*/
+
+                return candidates;
+            }
+        }
+
+        public static void IncermentCandidateVotes (int id) {
+            using (CandidateDbContext cdb = new CandidateDbContext()) {
+                CandidateModel candidate = (from c in cdb.Candidates
+                                            where c.ID == id
+                                            select c
+                                           ).First();
+
+                candidate.NrOfVotes++;
+                cdb.SaveChanges();
+            }
+        }
     }
 }
