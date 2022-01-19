@@ -55,5 +55,16 @@ namespace Voting_System.Controllers {
                 cdb.SaveChanges();
             }
         }
+
+        public static int GetCandidateID (string firstName, string lastName) {
+            using (CandidateDbContext cdb = new CandidateDbContext()) {
+                int id = (from c in cdb.Candidates
+                          where c.FirstName == firstName && c.LastName == lastName
+                          select c.ID
+                          ).First();
+
+                return id;
+            }
+        }
     }
 }
