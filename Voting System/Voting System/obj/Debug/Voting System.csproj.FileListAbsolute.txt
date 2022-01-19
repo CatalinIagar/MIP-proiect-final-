@@ -52,3 +52,4 @@ C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting
 C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.AddCandidate.resources
 D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.AddCandidate.resources
 D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.Admin.resources
+D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.VoteForm.resources
