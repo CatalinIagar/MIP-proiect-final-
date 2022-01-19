@@ -73,5 +73,28 @@ namespace Voting_System.Controllers {
                 return id;
             }
         }
+
+        public static void ChangeVoteState (int userID, int candidateID) {
+            using (UserDbContext udb = new UserDbContext()) {
+                UserModel user = (from u in udb.Users
+                                  where u.ID == userID
+                                  select u).First();
+
+                user.HasVoted = true;
+                user.CandidateID = candidateID;
+                udb.SaveChanges();
+            }
+            
+        }
+
+        public static bool GetVoteState (int userID) {
+            using (UserDbContext udb = new UserDbContext()) {
+                return (from u in udb.Users
+                                  where u.ID == userID
+                                  select u.HasVoted
+                                  ).First();
+
+            }
+        }
     }
 }
