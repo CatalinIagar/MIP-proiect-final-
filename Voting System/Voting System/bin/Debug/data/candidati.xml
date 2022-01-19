@@ -1,33 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <Candidati>
-  <Candidat Id="2">
-    <Nume>aaa</Nume>
-    <Prenume>sss</Prenume>
-    <Descriere>ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</Descriere>
-    <ImageSource />
-  </Candidat>
-  <Candidat Id="3">
-    <Nume>dfffffff</Nume>
-    <Prenume>ffff</Prenume>
-    <Descriere>fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</Descriere>
-    <ImageSource></ImageSource>
-  </Candidat>
-  <Candidat Id="4">
-    <Nume>Bill</Nume>
-    <Prenume>Gates</Prenume>
-    <Descriere>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Descriere>
-    <ImageSource>GATES.jfif</ImageSource>
-  </Candidat>
-  <Candidat Id="5">
-    <Nume>Sara</Nume>
-    <Prenume>Morariu</Prenume>
-    <Descriere>sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</Descriere>
-    <ImageSource>girl.jpg</ImageSource>
-  </Candidat>
-  <Candidat Id="6">
-    <Nume>Covaci</Nume>
-    <Prenume>Catalin</Prenume>
-    <Descriere>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</Descriere>
-    <ImageSource>person.png</ImageSource>
-  </Candidat>
+<Candidat Id="5">
+	<Nume>Copiil</Nume>
+	<Prenume>Prost</Prenume>
+	<Descriere>sunt un copil prosttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt</Descriere>
+	<ImageSource>download.jfif</ImageSource>
+</Candidat>
 </Candidati>

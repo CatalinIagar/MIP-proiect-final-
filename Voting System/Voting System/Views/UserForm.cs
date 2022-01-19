@@ -40,9 +40,9 @@ namespace Voting_System.Views {
         }
 
         private void dgv_CellDoubleClick(object sender, DataGridViewCellEventArgs e) {
-           int id = int.Parse(dgv.Rows[e.RowIndex].Cells["ID"].Value.ToString());
+           int candidateId = int.Parse(dgv.Rows[e.RowIndex].Cells["ID"].Value.ToString());
 
-          VoteForm form = new VoteForm(id);
+          VoteForm form = new VoteForm(candidateId, userId);
             if (form.ShowDialog() == DialogResult.OK) {
                 Console.WriteLine("Votat");
             }

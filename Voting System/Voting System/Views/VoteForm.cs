@@ -13,13 +13,18 @@ using Voting_System.Controllers;
 namespace Voting_System.Views {
     public partial class VoteForm : Form {
 
-        public VoteForm(int id) {
+        private int candidateId;
+        private int userId;
+        public VoteForm(int candidateId, int userId) {
 
             InitializeComponent();
+
+            this.candidateId = candidateId;
+            this.userId = userId;
          
-            descriptionrichTextBox.Text = XmlController.getDescriptionXml(@"data\candidati.xml", id);
-            name.Text = CandidateController.GetFullName(id);
-            string imageName = XmlController.getImageXml(@"data\candidati.xml", id);
+            descriptionrichTextBox.Text = XmlController.getDescriptionXml(@"data\candidati.xml", candidateId);
+            name.Text = CandidateController.GetFullName(candidateId);
+            string imageName = XmlController.getImageXml(@"data\candidati.xml", candidateId);
 
             string basePath = Environment.CurrentDirectory;
             string relativePath = "data";
@@ -51,7 +56,8 @@ namespace Voting_System.Views {
         }
 
         private void Votebtn_Click(object sender, EventArgs e) {
-
+            CandidateController.IncermentCandidateVotes(candidateId);
+            UserController.ChangeVoteState(userId, candidateId);
         }
     }
 }
