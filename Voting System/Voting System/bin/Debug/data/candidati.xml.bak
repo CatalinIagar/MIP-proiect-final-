@@ -1,5 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Candidati>
+  <Candidat Id="5">
+    <Nume>Copiil</Nume>
+    <Prenume>Prost</Prenume>
+    <Descriere>sunt un copil prosttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt</Descriere>
+    <ImageSource>download.jfif</ImageSource>
+  </Candidat>
+  <Candidat Id="6">
+    <Nume>Codrea</Nume>
+    <Prenume>Nebunu</Prenume>
+    <Descriere>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</Descriere>
+    <ImageSource>maxresdefault.jpg</ImageSource>
+  </Candidat>
   <Candidat Id="1">
     <Nume>Tom</Nume>
     <Prenume>Holland</Prenume>
@@ -35,11 +47,5 @@
     <Prenume>Professor</Prenume>
     <Descriere>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</Descriere>
     <ImageSource>chVF4a1K_400x400.jpg</ImageSource>
-  </Candidat>
-  <Candidat Id="7">
-    <Nume>Michael</Nume>
-    <Prenume>Scofield</Prenume>
-    <Descriere>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</Descriere>
-    <ImageSource>download.jfif</ImageSource>
   </Candidat>
 </Candidati>
