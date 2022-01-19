@@ -66,5 +66,18 @@ namespace Voting_System.Controllers {
                 return id;
             }
         } 
+
+        public static string GetFullName (int id) {
+            using (CandidateDbContext cdb = new CandidateDbContext()) {
+                var res = (from c in cdb.Candidates
+                           where c.ID == id
+                           select new { 
+                               c.FirstName,
+                               c.LastName
+                           }).First();
+
+                return res.FirstName + " " + res.LastName;
+            }
+        }
     }
 }
