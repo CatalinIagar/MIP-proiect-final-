@@ -60,3 +60,7 @@ D:\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System
 C:\Users\Tudor\source\repos\MIP\P3_tests\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.UserForm.resources
 C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.UserForm.resources
 C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.VoteForm.resources
+C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Main.ro.resources
+C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\bin\Debug\ro\Voting System.resources.dll
+C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\ro\Voting System.resources.dll
+C:\Users\catal\OneDrive\Documente\GitHub\MIP-proiect-final-\Voting System\Voting System\obj\Debug\Voting_System.Views.SignUpForm.ro.resources

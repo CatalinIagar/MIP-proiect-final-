@@ -93,16 +93,6 @@ namespace Voting_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap English_Language_Flag_1_icon {
-            get {
-                object obj = ResourceManager.GetObject("English-Language-Flag-1-icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap English_Language_Flag_1_icon__1_ {
             get {
                 object obj = ResourceManager.GetObject("English-Language-Flag-1-icon (1)", resourceCulture);

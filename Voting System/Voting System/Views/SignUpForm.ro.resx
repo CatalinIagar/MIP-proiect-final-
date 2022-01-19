@@ -117,208 +117,39 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;firstTxt.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="passwordLbl.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="firstNameLbl.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lastNameLbl.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lastNameLbl.Name" xml:space="preserve">
-    <value>lastNameLbl</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="firstNameLbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 13</value>
-  </data>
-  <data name="cnpTxt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 196</value>
-  </data>
-  <data name="&gt;&gt;cnpTxt.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;signupBtn.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="usernameTxt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 36</value>
-  </data>
-  <data name="passwordTxt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 20</value>
-  </data>
-  <data name="passwordLbl.Text" xml:space="preserve">
-    <value>Password</value>
-  </data>
-  <data name="&gt;&gt;lastTxt.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="dobLbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 13</value>
-  </data>
-  <data name="lastTxt.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;passwordTxt.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="signupBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 36</value>
-  </data>
-  <data name="&gt;&gt;lastNameLbl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 235</value>
-  </data>
-  <data name="&gt;&gt;closeBtn.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;cdnpLbl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lastTxt.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;usernameTxt.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;signupBtn.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;cdnpLbl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;firstTxt.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="passwordLbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 13</value>
-  </data>
-  <data name="&gt;&gt;firstNameLbl.Name" xml:space="preserve">
-    <value>firstNameLbl</value>
-  </data>
-  <data name="&gt;&gt;passwordLbl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="firstNameLbl.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="firstNameLbl.Text" xml:space="preserve">
-    <value>First Name</value>
-  </data>
-  <data name="dobLbl.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="dateTimePicker1.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;cnpTxt.Name" xml:space="preserve">
-    <value>cnpTxt</value>
-  </data>
-  <data name="lastNameLbl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 139</value>
-  </data>
-  <data name="&gt;&gt;usernameLbl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lastTxt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 156</value>
-  </data>
-  <data name="&gt;&gt;passwordLbl.Name" xml:space="preserve">
-    <value>passwordLbl</value>
-  </data>
-  <data name="&gt;&gt;usernameTxt.Name" xml:space="preserve">
-    <value>usernameTxt</value>
-  </data>
-  <data name="signupBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 272</value>
-  </data>
-  <data name="&gt;&gt;passwordTxt.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cnpTxt.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cnpTxt.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="usernameTxt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 20</value>
-  </data>
-  <data name="&gt;&gt;lastTxt.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="signupBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;dobLbl.Name" xml:space="preserve">
-    <value>dobLbl</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="usernameLbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 13</value>
+    <value>47, 13</value>
   </data>
   <data name="usernameLbl.Text" xml:space="preserve">
-    <value>Username</value>
+    <value>Utilizator</value>
   </data>
-  <data name="cdnpLbl.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="passwordLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
   </data>
-  <data name="usernameLbl.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="passwordLbl.Text" xml:space="preserve">
+    <value>Parola</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>SignUpForm</value>
+  <data name="lastNameLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
   </data>
-  <data name="&gt;&gt;lastNameLbl.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="lastNameLbl.Text" xml:space="preserve">
+    <value>Prenume</value>
   </data>
-  <data name="&gt;&gt;signupBtn.Name" xml:space="preserve">
-    <value>signupBtn</value>
+  <data name="firstNameLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
   </data>
-  <data name="cdnpLbl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 179</value>
-  </data>
-  <data name="&gt;&gt;closeBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cnpTxt.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="dobLbl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 219</value>
-  </data>
-  <data name="firstTxt.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;dobLbl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lastNameLbl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="passwordTxt.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
-    <value>*</value>
+  <data name="firstNameLbl.Text" xml:space="preserve">
+    <value>Nume</value>
   </data>
   <data name="dobLbl.Text" xml:space="preserve">
-    <value>Date of Birth</value>
+    <value>Data nasterii</value>
   </data>
-  <data name="&gt;&gt;cdnpLbl.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="closeBtn.Text" xml:space="preserve">
+    <value>Inchide</value>
   </data>
-  <data name="closeBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>128, 272</value>
+  <data name="signupBtn.Text" xml:space="preserve">
+    <value>Creaza cont</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3625,163 +3456,4 @@
         AQAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAIABAADAAwAA8A8AAA==
 </value>
   </data>
-  <data name="lastTxt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 20</value>
-  </data>
-  <data name="&gt;&gt;usernameLbl.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;firstNameLbl.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>230, 318</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker1.Name" xml:space="preserve">
-    <value>dateTimePicker1</value>
-  </data>
-  <data name="passwordLbl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 59</value>
-  </data>
-  <data name="passwordTxt.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="usernameLbl.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;dobLbl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="&gt;&gt;passwordTxt.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="firstTxt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 20</value>
-  </data>
-  <data name="usernameLbl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 19</value>
-  </data>
-  <data name="&gt;&gt;usernameLbl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;firstNameLbl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;passwordTxt.Name" xml:space="preserve">
-    <value>passwordTxt</value>
-  </data>
-  <data name="&gt;&gt;passwordLbl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;closeBtn.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;usernameTxt.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="passwordLbl.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="closeBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;firstNameLbl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cdnpLbl.Text" xml:space="preserve">
-    <value>CNP</value>
-  </data>
-  <data name="signupBtn.Text" xml:space="preserve">
-    <value>Sign up</value>
-  </data>
-  <data name="firstTxt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 116</value>
-  </data>
-  <data name="&gt;&gt;closeBtn.Name" xml:space="preserve">
-    <value>closeBtn</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>SignUpForm</value>
-  </data>
-  <data name="&gt;&gt;signupBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;usernameLbl.Name" xml:space="preserve">
-    <value>usernameLbl</value>
-  </data>
-  <data name="lastNameLbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 13</value>
-  </data>
-  <data name="firstNameLbl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 99</value>
-  </data>
-  <data name="cdnpLbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 13</value>
-  </data>
-  <data name="usernameTxt.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;firstTxt.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;passwordLbl.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;firstTxt.Name" xml:space="preserve">
-    <value>firstTxt</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cdnpLbl.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;cdnpLbl.Name" xml:space="preserve">
-    <value>cdnpLbl</value>
-  </data>
-  <data name="&gt;&gt;lastTxt.Name" xml:space="preserve">
-    <value>lastTxt</value>
-  </data>
-  <data name="closeBtn.Text" xml:space="preserve">
-    <value>Close</value>
-  </data>
-  <data name="lastNameLbl.Text" xml:space="preserve">
-    <value>Last Name</value>
-  </data>
-  <data name="dateTimePicker1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 20</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="lastNameLbl.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="passwordTxt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 76</value>
-  </data>
-  <data name="closeBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 36</value>
-  </data>
-  <data name="cnpTxt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 20</value>
-  </data>
-  <data name="&gt;&gt;usernameTxt.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="dobLbl.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;dobLbl.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>ro</value>
-  </metadata>
 </root>
