@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,10 +16,13 @@ namespace Voting_System.Views
     
     public partial class AddCandidate : Form
     {
+        private string fileName;
+
         private TraceController tracecontroller = TraceController.getInstance();
         public AddCandidate()
         {
             InitializeComponent();
+            fileName = "";
         }
 
         private void closeBtn_Click(object sender, EventArgs e)
@@ -57,7 +61,7 @@ namespace Voting_System.Views
             {
                 string FirstName = this.firstTxt.Text;
                 string LastName = this.lastTxt.Text;
-                string Description = this.descriptionTxt.Text;
+                string Description = this.description.Text;
 
 
                 int rezultat = CandidateController.NewCandidate(FirstName, LastName, Description);
@@ -85,6 +89,11 @@ namespace Voting_System.Views
                 if (rezultat == ErrorCodes.Succes)
                 {
                     MessageBox.Show("Candidate added succesfully");
+                    //xml
+                    // XmlController.InsertXml(@"data\candidati.xml",)
+
+
+                    //
                     tracecontroller.logMessage("Candidate added succesfully");
                     if (signUp.InvokeRequired)
                     {
@@ -116,6 +125,21 @@ namespace Voting_System.Views
         {
             addBtn.Enabled = false;
             Task.Run(() => addCandidate(this, addBtn));
+        }
+
+        private void button1_Click(object sender, EventArgs e) {
+            string basePath = Environment.CurrentDirectory;
+            string relativePath = "data";
+            string fullPath = Path.Combine(basePath, relativePath);
+
+            OpenFileDialog ofd = new OpenFileDialog();
+            if (ofd.ShowDialog() == DialogResult.OK) {
+
+                FileInfo fi = new FileInfo(ofd.FileName);
+                File.Move(ofd.FileName, Path.Combine(fullPath,fi.Name));
+                fileName = fi.Name;
+                // Console.WriteLine(fileName);
+            }
         }
     }
 }
