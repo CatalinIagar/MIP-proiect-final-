@@ -12,4 +12,22 @@
     <Descriere>fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</Descriere>
     <ImageSource></ImageSource>
   </Candidat>
+  <Candidat Id="4">
+    <Nume>Bill</Nume>
+    <Prenume>Gates</Prenume>
+    <Descriere>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Descriere>
+    <ImageSource>GATES.jfif</ImageSource>
+  </Candidat>
+  <Candidat Id="5">
+    <Nume>Sara</Nume>
+    <Prenume>Morariu</Prenume>
+    <Descriere>sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</Descriere>
+    <ImageSource>girl.jpg</ImageSource>
+  </Candidat>
+  <Candidat Id="6">
+    <Nume>Covaci</Nume>
+    <Prenume>Catalin</Prenume>
+    <Descriere>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</Descriere>
+    <ImageSource>person.png</ImageSource>
+  </Candidat>
 </Candidati>
