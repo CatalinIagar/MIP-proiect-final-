@@ -35,5 +35,14 @@ namespace Voting_System.Views {
         private void refreshButton_Click(object sender, EventArgs e) {
             LoadData();
         }
+
+        private void dgv_CellDoubleClick(object sender, DataGridViewCellEventArgs e) {
+           int id = int.Parse(dgv.Rows[e.RowIndex].Cells["ID"].Value.ToString());
+
+          VoteForm form = new VoteForm(id);
+            if (form.ShowDialog() == DialogResult.OK) {
+                Console.WriteLine("Votat");
+            }
+        }
     }
 }
