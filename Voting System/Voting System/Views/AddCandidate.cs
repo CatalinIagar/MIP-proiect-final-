@@ -145,7 +145,7 @@ namespace Voting_System.Views
             if (ofd.ShowDialog() == DialogResult.OK) {
 
                 FileInfo fi = new FileInfo(ofd.FileName);
-                File.Move(ofd.FileName, Path.Combine(fullPath,fi.Name));
+                File.Copy(ofd.FileName, Path.Combine(fullPath,fi.Name));
                 fileName = fi.Name;
                 // Console.WriteLine(fileName);
             }

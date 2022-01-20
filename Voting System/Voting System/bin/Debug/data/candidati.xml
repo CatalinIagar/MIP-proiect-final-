@@ -42,4 +42,16 @@
     <Descriere>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</Descriere>
     <ImageSource>download.jfif</ImageSource>
   </Candidat>
+  <Candidat Id="8">
+    <Nume>Oliver</Nume>
+    <Prenume>Queen</Prenume>
+    <Descriere>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</Descriere>
+    <ImageSource>Oliver Queen.jpg</ImageSource>
+  </Candidat>
+  <Candidat Id="9">
+    <Nume>Marcel</Nume>
+    <Prenume>Marcelo</Prenume>
+    <Descriere>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</Descriere>
+    <ImageSource></ImageSource>
+  </Candidat>
 </Candidati>
